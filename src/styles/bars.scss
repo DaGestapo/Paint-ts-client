@@ -1,0 +1,80 @@
+@import 'variables.scss';
+
+.bar {
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 4px 5px #777777;
+
+}
+
+.tool {
+    button {
+        width: 40px;
+        height: 40px;
+        border: none;
+        outline: none;
+        margin-left: 10px;
+        background-size: cover;
+        cursor: pointer;
+    }
+
+    .brush {
+        background: url('../styles/assets/Vector.png') no-repeat center;
+    }
+
+    .rect {
+        background: url('../styles/assets/rect.png') no-repeat center;
+    }
+
+    .circle {
+        background: url('../styles/assets/circle.png') no-repeat center;
+    }    
+
+    .eraser {
+        background: url('../styles/assets/eraser.png') no-repeat center;
+    }  
+    
+    .line {
+        background: url('../styles/assets/line.png') no-repeat center;
+    } 
+
+    .undo {
+        margin-left: auto;
+        background: url('../styles/assets/undo.png') no-repeat center;
+    }
+
+    .redo {
+        background: url('../styles/assets/redo.png') no-repeat center;
+    }
+
+    .save {
+        margin-right: 10px;
+        background: url('../styles/assets/save.png') no-repeat center;
+    }
+
+    input {
+        cursor: pointer;
+    }
+}
+
+.setting {
+    top: 40px;
+    font-size: 18px;
+    
+    div {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+
+        input {
+            height: 25px;
+            width: 40px;
+            margin-left: 5px;
+            outline: none;
+        }
+    }
+}
